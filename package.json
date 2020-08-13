@@ -1,0 +1,29 @@
+{
+  "name": "valorant-discord-bot",
+  "type":"module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.6.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-unicorn": "^21.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rmnlly/valorant-discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rmnlly/valorant-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Rmnlly/valorant-discord-bot#readme"
+}
