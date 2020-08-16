@@ -1,13 +1,14 @@
 {
   "name": "valorant-discord-bot",
-  "type":"module",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
-    "eslint": "^7.6.0"
+    "eslint": "^7.6.0",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "eslint-plugin-unicorn": "^21.0.0"
