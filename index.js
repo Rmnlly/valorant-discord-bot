@@ -44,7 +44,7 @@ client.on("message", async (message) => {
     const blitzTier = parsedData.ranks.competitive.tier || 0;
     const rank = blitzTierMap[blitzTier];
     message.channel.send(
-      `Raman is currently ${rank}${snarkyRemark(blitzTier)}`
+      `Raman is currently ${rank} ${snarkyRemark(blitzTier)}`
     );
   }
   if (message.content === "lame") {
